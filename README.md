@@ -38,6 +38,3 @@ This Tableau dashboard provides a comprehensive analysis of retail sales perform
 - **Data Source:** Retail sales dataset  
 - **KPIs & Metrics Tracked:** Sales, Profit, Discount, Quantity Sold  
 
----
-
-Let me know if you need modifications or additional sections! 🚀
