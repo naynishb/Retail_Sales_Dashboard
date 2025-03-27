@@ -1,7 +1,3 @@
-Here’s a description and analysis for your README file:  
-
----
-
 # **Executive Retail Sales Analytics Dashboard**  
 
 ## **Project Overview**  
