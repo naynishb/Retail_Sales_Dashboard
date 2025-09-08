@@ -42,7 +42,7 @@ The project is designed for:
 ---
 
 ## 📂 Project Files
-https://github.com/naynishb/Retail_Sales_Dashboard/blob/main/images/Story%201.png → Overview dashboard (Q4 2018 snapshot)  https://github.com/naynishb/Retail_Sales_Dashboard/blob/main/images/Story%202.png → NYC-focused performance analysis (2017–2018)  
+!(https://github.com/naynishb/Retail_Sales_Dashboard/blob/main/images/Story%201.png) → Overview dashboard (Q4 2018 snapshot)  https://github.com/naynishb/Retail_Sales_Dashboard/blob/main/images/Story%202.png → NYC-focused performance analysis (2017–2018)  
 https://github.com/naynishb/Retail_Sales_Dashboard/blob/main/images/Story%203.png → Central region performance (2018)  https://github.com/naynishb/Retail_Sales_Dashboard/blob/main/images/Story%204.png → Overall performance (2017–2018 full period)  
 
 ## 🌍 Live Dashboard
