@@ -1,54 +1,83 @@
-# **Executive Retail Sales Analytics Dashboard**  
+# Executive Retail Sales Analytics (Tableau Project)
 
-## 🚀 **Project Overview**  
-This interactive Tableau dashboard provides a data-driven approach to analyzing **retail sales performance** across different **regions, categories, and time periods**. Designed for business executives and decision-makers, it enables tracking of key **sales, profit, and discount trends**, offering actionable insights for improving business strategies.  
+## 📌 Project Overview
+This Tableau project provides an **interactive Executive Retail Sales Dashboard** for analyzing retail performance across regions, cities, product categories, and time.  
+The dashboard helps executives track **sales, profit, discount trends, and target achievements** with clear visual storytelling.  
 
-## 📊 **Key Insights & Analysis**  
+The project is designed for:
+- Business decision-makers  
+- Sales & marketing teams  
+- Data analysts  
 
-### 📌 **Performance Metrics (KPIs)**  
-- **📈 YTD Sales:** **$1.75M**  
-- **💰 YTD Profit:** **$236K**  
-- **📦 Total Quantity Sold:** **28K units**  
-- **🎯 YTD Average Discount:** **15.35%**  
+---
 
-### 🌍 **Sales vs Goal by Region**  
-- ✅ **West region outperformed** sales goals with a positive variance of **+85,855**.  
-- ❌ **East region underperformed**, missing its goal by **-24,511**.  
-- 🏅 **Central & South regions showed balanced performance**, with small variances.  
+## 📊 Key Features
+- **KPI Summary Cards**  
+  - YTD Sales, Quantity, Profit, and Average Discount at a glance.  
+  - Example from dashboards:  
+    - Overall (2017–2018 full): **$1.34M Sales, 22K Qty, $175K Profit, 15.57% Avg Discount**  
+    - NYC only: **$0.14M Sales, 2K Qty, $35K Profit, 5.58% Avg Discount**  
+    - Central Region: **$0.15M Sales, 3K Qty, $8K Profit, 23.96% Avg Discount**  
 
-### 🏷 **Sales & Profit Breakdown by Category & Sub-Category**  
-- **📌 Top Performers:**  
-  - **Furniture:** Chairs ($286K) led in sales.  
-  - **Office Supplies:** Storage ($158K) and Binders ($142K) performed well.  
-  - **Technology:** Phones ($260K) were the top-selling tech product.  
-- **📉 Underperformers:**  
-  - **Tables** in the Furniture category had **low sales & profit margins**.  
+- **Regional Sales Performance**  
+  - **Central Region** met its target (+$5,098).  
+  - **East & West Regions** underperformed heavily (East: –$151,917 | West: –$59,872).  
+  - **South Region** also missed its goal (–$29,100).  
 
-### 🌎 **Geographical Performance (Map View)**  
-- **Green bubbles:** High sales & profitable regions.  
-- **Red bubbles:** Low-performing cities requiring strategic intervention.  
+- **Geographical Analysis**  
+  - Interactive map of Sales & Profit by City.  
+  - **NYC clearly stands out as the top city**, contributing high profit and sales.  
+  - California, Texas, and surrounding areas show a mix of profitable and loss-making cities.  
 
-### 📅 **Sales & Profit Trends Over Time**  
-- **Seasonality:** Sales peaked around **August 2018**, indicating strong demand during this period.  
-- **Profitability Trends:** Sales spikes aligned with profit growth, suggesting **successful marketing campaigns or seasonal demand surges**.  
+- **Time Series Trends**  
+  - Full dataset view (2017–2018): **November 2017 recorded the highest sales peak (~120K)**.  
+  - NYC view: **December 2018 was the peak month**, with steady growth leading up.  
+  - Central Region: Profits fluctuated, with **February showing highest sales but also big losses** in some months.  
 
-## 💡 **Business Recommendations**  
-1. **Expand marketing efforts in underperforming regions** (East) to boost sales.  
-2. **Leverage high-performing categories (Phones & Chairs)** by optimizing stock availability and promotions.  
-3. **Capitalize on peak months (August)** with discounts or special deals.  
-4. **Monitor discounting strategies** to ensure profitability isn’t negatively impacted.  
+- **Category & Subcategory Analysis**  
+  - Top categories by sales & profit: **Chairs ($180K), Phones ($184K), Tables ($121K), Copiers ($112K)**.  
+  - Loss-making or weaker categories: **Binders ($122K sales but low profit), Bookcases ($56K sales, losses), Paper ($48K sales, low returns)**.  
+  - Technology and Furniture categories overall profitable, while some **Office Supplies underperformed**.  
 
-## 🛠 **Technology Stack**  
-- **📊 Data Visualization:** Tableau  
-- **📂 Data Source:** Retail sales dataset  
-- **📈 Metrics Tracked:** Sales, Profit, Discounts, Quantity Sold  
+---
 
-## 📌 **How to Use the Dashboard**  
-1. **Open the Tableau workbook (`.twbx`).**  
-2. **Interact with filters** (Region, Category, Date, etc.) to explore data.  
-3. **Analyze KPIs and trends** to derive business insights.  
+## 📂 Project Files
+- `Story 1.png` → Overview dashboard (Q4 2018 snapshot).  
+- `Story 2.png` → NYC-focused performance analysis (2017–2018).  
+- `Story 3.png` → Central region performance (2018).  
+- `Story 4.png` → Overall performance (2017–2018 full period).  
+Q
+---
 
----  
+## 🔑 Insights from Dashboards
+1. **Central Region achieved targets**, unlike other regions.  
+2. **NYC was the best performer** with consistent growth and strong profits.  
+3. **November 2017 marked the highest sales (~120K)** in the 2-year period.  
+4. **Chairs, Phones, and Copiers** were the strongest contributors to profitability.  
+5. **Binders, Bookcases, and Paper** dragged down profits despite sales.  
+6. Discounts varied widely: **Central Region had the highest discount rate (23.96%)**, while NYC maintained profitability with just **5.58% average discount**.  
 
-### 🚀 **Contributions & Feedback**  
-This project is open for collaboration! Feel free to fork the repo, suggest improvements, or report any issues.  
+---
+
+## 🛠 Tools & Technologies
+- **Tableau Desktop / Tableau Public**  
+- Mapbox for geographical visualization  
+- Data Visualization & Storytelling techniques  
+
+---
+
+## 🚀 How to Use
+1. Open the Tableau workbook (`.twb` or `.twbx`).  
+2. Navigate through **filters (Region, City, Category, Month)** to explore different perspectives.  
+3. Use **story tabs (1–4)** to view different dashboards:  
+   - Story 1 → Snapshot (Q4 2018)  
+   - Story 2 → NYC-focused analysis  
+   - Story 3 → Central Region performance  
+   - Story 4 → Full-period performance  
+
+---
+
+## 📌 Future Enhancements
+- Add forecasting for sales & profit trends.  
+- Customer segmentation analysis by region/city.  
+- Automate data refresh with live connections.  
