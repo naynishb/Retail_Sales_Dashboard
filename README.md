@@ -46,7 +46,7 @@ The project is designed for:
 - `Story 2.png` → NYC-focused performance analysis (2017–2018).  
 - `Story 3.png` → Central region performance (2018).  
 - `Story 4.png` → Overall performance (2017–2018 full period).  
-Q
+
 ---
 
 ## 🔑 Insights from Dashboards
